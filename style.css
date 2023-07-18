@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column ;
+    gap: 15PX;
+    width: 450px;
+    height: 495px;
+    top:68px;
+    border-radius: 20px;
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.180),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.1px solid gainsboro;
+}
+
+.wel{
+    color: gainsboro;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.input1{
+    height: 45px;
+    border: 0.2px solid gainsboro;
+    width: 300px;
+    border-radius: 5px;
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.098),rgba(255,255,255,0));
+    padding-left: 8px;
+    color: gainsboro;
+    margin-bottom: 20px;
+}
+.input2{
+    height: 45px;
+    border: 0.2px solid gainsboro;
+    width: 300px;
+    border-radius: 5px;
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.098),rgba(255,255,255,0));
+    padding-left: 8px;
+    color: gainsboro;
+}
+.label1{
+    font-size: 15px;
+    color: gainsboro;
+}
+
+.label2{
+    font-size: 15px;
+    color: gainsboro;
+}
+.rem{
+    font-size: 12px;
+    color: gainsboro;
+}
+
+.pass{
+    font-size: 12px;
+    color: #6FEDD6;
+}
+
+.check{
+    font-size: 12px;
+    color: gainsboro;
+}
+.log{
+    font-size: 12px;
+    color: gainsboro;
+    width: 200px;
+    height: 43px;
+    border-radius: 5px;
+   background-color: black;
+    border: 1px solid  black;
+    font-weight: 500;
+    cursor: pointer;
+}
+.b1{
+    display: flex;
+    flex-direction: column;
+}
+.dont{
+    font-size: 12px;
+    color: gainsboro;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.goo{
+    width: 32px;
+    height: 32px;
+    background-color: gainsboro;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.098),rgba(255,255,255,0));
+    border: 0.5px solid gainsboro;
+    cursor: pointer;
+}
+
+.linked{
+    width: 34px;
+    height: 34px;
+    background-color: gainsboro;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.098),rgba(255,255,255,0)); 
+    border: 0.5px solid gainsboro;
+    cursor: pointer;
+}
+
+.face{
+    width: 33px;
+    height: 33px;
+    background-color: gainsboro;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.098),rgba(255,255,255,0)); 
+    border: 0.5px solid gainsboro;
+    cursor: pointer;
+}
+
+.or{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("hero1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 602px;
+    width: 100%;
+}
